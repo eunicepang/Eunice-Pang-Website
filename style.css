@@ -1,0 +1,104 @@
+body{
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  /* Global */
+  
+  .container{
+    width:100%;
+    margin:auto;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* NavBar */
+
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightgrey;
+    padding-left: 0;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    line-height: 3em;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .navbar h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 35px;
+  }
+
+  .navbar li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    letter-spacing: 1px;
+  }
+
+  .navbar #current{
+    text-decoration: underline;
+  }
+
+  
+/* Content */
+
+.content{
+  padding-top: 200px;
+
+}
+
+.content h2{
+  text-align: left;
+  font-size: 20px;
+  padding-left: 100px;
+  text-transform: uppercase;
+}
+
+.content h3{
+  text-align: left;
+  font-size: 15px;
+  padding-left: 100px;
+}
+
+.content p{
+  text-align: left;
+  font-size: 15px;
+  padding-left: 100px;
+  color: grey;
+}
+
+.content a{
+  color: black;
+}
+
+.content #slidedeck,
+.content #paper,
+.content #biorobotics {
+  width: 70%;
+  height: 500px;
+  padding-left: 100px;
+}
+
+.content hr {
+  width: 90%;
+  color: lightgrey;
+}
+
+.projects {
+  width: 90%
+}
+
+.contact {
+  text-align: center;
+}
