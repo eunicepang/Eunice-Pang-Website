@@ -85,6 +85,10 @@ color: grey;
 color: black;
 }
 
+.content ul{
+  padding-left: 130px;
+}
+
 .content #slidedeck,
 .content #paper,
 .content #biorobotics {
